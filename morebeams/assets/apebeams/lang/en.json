@@ -1,0 +1,42 @@
+{
+	"game:tabname-apesupportbeams": "More Beams",
+
+	"block-handbooktitle-*decor1": "Decorated beam",
+	"block-handbooktext-*decor1": "<br>A decorated wooden beam, carved with a circular pattern.",
+
+	"block-handbooktitle-*decor2": "Hand carved decorated beam",
+	"block-handbooktext-*decor2": "<br>A decorated wooden beam, meticulously carved with a flower pattern. Great for adding decorations in festive halls, hallways and rooms of geat importance.",
+
+	"block-handbooktitle-*decor3": "Hand decorated beam",
+	"block-handbooktext-*decor3": "<br>A decorated beam with a Gordian knot pattern, painted by hand. Great for adding decorations in festive halls, hallways and rooms of geat importance.",
+
+	"block-handbooktitle-*decor4": "Hand decorated beam",
+	"block-handbooktext-*decor4": "<br>A decorated wooden beam, meticulously carved with a clover pattern. Great for adding decorations in festive halls, hallways and rooms of geat importance.",
+
+	"block-handbooktitle-*decor5": "Hand decorated beam",
+	"block-handbooktext-*decor5": "<br>A decorated beam with a large Gordian knot pattern, painted by hand. Great for adding decorations in festive halls, hallways and rooms of geat importance.",
+
+	"block-handbooktitle-*chamfered1": "Chamfered beam",
+	"block-handbooktext-*chamfered1": "<br>A beam with chamfered corners, perfect for inner corners, floor and ceiling trim.",
+
+	"block-handbooktitle-*voxel1": "Knotted beam",
+	"block-handbooktext-*voxel1": "<br>A decorated beam with knots evenly spaced along its length. Great for decorative features, edges, trims and support features.",
+
+	"block-handbooktitle-*spoked1": "Beam with spikes",
+	"block-handbooktext-*spoked1": "<br>A decorated beam with spikes evenly spaced along its length. Great for decorative features, edges, trims and support features.",
+
+	"block-handbooktitle-*1x1-plain": "1x1 Wooden Beam",
+	"block-handbooktext-*1x1-plain": "<br>A slim beam for detailing work.",
+
+	"block-handbooktitle-*2x2-plain": "2x2 Wooden Beam",
+	"block-handbooktext-*2x2-plain": "<br>A slim beam for detailing work.",
+
+	"block-handbooktitle-*3x3-plain": "3x3 Wooden Beam",
+	"block-handbooktext-*3x3-plain": "<br>A medium beam for detailing work.",
+
+	"block-handbooktitle-*5x5-plain": "5x5 Wooden Beam",
+	"block-handbooktext-*5x5-plain": "<br>A large beam for detailing work, framing and support features.",
+
+	"block-handbooktitle-*6x6-plain": "6x6 Wooden Beam",
+	"block-handbooktext-*6x6-plain": "<br>A thick beam for detailing work, framing and support features."
+}

@@ -1,0 +1,31 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"carved1": [128,64],
+		"wood": [32,32]
+	},
+	"textures": {
+		"wood": "game:block/wood/bark/quad/ends/placed/aged",
+		"carved1": "apebeams:block/wood/debarked/aged2"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 8.0, -0.5, 5.5 ],
+			"to": [ 16.0, 4.5, 10.5 ],
+			"rotationOrigin": [ 8.0, -0.5, 8.0 ],
+			"faces": {
+				"north": { "texture": "#carved1", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "autoUv": false },
+				"east": { "texture": "#wood", "uv": [ 16.0, 0.0, 32.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#carved1", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "autoUv": false },
+				"west": { "texture": "#wood", "uv": [ 0.0, 16.0, 16.0, 32.0 ], "autoUv": false },
+				"up": { "texture": "#carved1", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "autoUv": false },
+				"down": { "texture": "#carved1", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "autoUv": false }
+			}
+		}
+	]}

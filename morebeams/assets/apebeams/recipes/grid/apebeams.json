@@ -1,0 +1,165 @@
+[
+	{
+		"ingredientPattern": "HAL",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 1  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-1x1-plain", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "_AH,_L_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 1  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-2x2-plain", "quantity": 10 }
+	},
+	{
+		"ingredientPattern": "HA_,_L_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 1  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-3x3-plain", "quantity": 6 }
+	},
+	{
+		"ingredientPattern": "AHS,L__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 3  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-5x5-plain", "quantity": 3 }
+	},
+	{
+		"ingredientPattern": "SAH,_L_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 3  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-6x6-plain", "quantity": 3 }
+	},
+	{
+		"ingredientPattern": "_A_,SLH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 3  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-6x6-chamfered1", "quantity": 3 }
+	},
+	{
+		"ingredientPattern": "S_A,CLH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 10  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-6x6-voxel1", "quantity": 3 }
+	},
+	{
+		"ingredientPattern": "A_S,CLH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 10  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-6x6-spoked1", "quantity": 3 }
+	},
+	{
+		"ingredientPattern": "ABS,CLH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 10  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] },
+			"B": { "type": "block", "code": "game:bowl-*-fired" }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-red", "name": "colour" }, "requiresLitres": 0.1	} },
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-5x5-decor3", "quantity": 3 }
+	},
+	{
+		"ingredientPattern": "A_S,CLH,_B_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 10  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] },
+			"B": { "type": "block", "code": "game:bowl-*-fired" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-red", "name": "colour" }, "requiresLitres": 0.1	} },
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-5x5-decor5", "quantity": 3 }
+	},
+	{
+		"ingredientPattern": "ACS,_L_,_H_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 10  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-5x5-decor1", "quantity": 3 }
+	},
+	{
+		"ingredientPattern": "AHS,_L_,_C_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10  },
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 3  },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 10  },
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 3  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", "name": "wood", "skipVariants": ["veryaged","veryagedrotten"] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apebeams:apesupportbeams-{wood}-5x5-decor4", "quantity": 3 }
+	}
+]

@@ -1,0 +1,15 @@
+{
+  "type": "content",
+  "modid": "apebeams",
+  "name": "More Beams",
+  "description" : "Create beams of various sizes and decorations.",
+  "authors": ["xXx_Ape_xXx"],
+  "contributors": [""],
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "version": "1.1.1",
+  "dependencies": { 
+	"game": "1.21.0"
+  }
+}
