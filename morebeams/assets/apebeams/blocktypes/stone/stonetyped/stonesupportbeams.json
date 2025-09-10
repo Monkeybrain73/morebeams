@@ -1,0 +1,148 @@
+{
+  "code": "apesupportbeams",
+  "class": "BlockSupportBeam",
+  "entityClass": "Generic",
+  "behaviorsByType": {
+    "*-spoked1": [
+      {
+        "name": "Beam.Name",
+        "properties": { "parts": [ "apebeams:style-spoked1", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{stone}", ")" ] }
+      }
+    ],
+    "*-voxel1": [
+      {
+        "name": "Beam.Name",
+        "properties": { "parts": [ "apebeams:style-voxel1", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{stone}", ")" ] }
+      }
+    ],
+    "*-chamfered1": [
+      {
+        "name": "Beam.Name",
+        "properties": { "parts": [ "apebeams:style-chamfered", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{stone}", ")" ] }
+      }
+    ],
+    "*-polished": [
+      {
+        "name": "Beam.Name",
+        "properties": { "parts": [ "apebeams:style-polished", " ", "apebeams:supportbeamlc", " (", "apebeams:size-{diameter}", ")", " (", "apebeams:beammaterial-{stone}", ")" ] }
+      }
+    ],
+    "*-plain": [
+      {
+        "name": "Beam.Name",
+        "properties": { "parts": [ "apebeams:supportbeamuc", " (", "apebeams:size-{diameter}", ")", " (", "apebeams:beammaterial-{stone}", ")" ] }
+      }
+    ]
+  },
+  "attributes": {
+    "unstableRockStabilization": 3,
+    "partialEnds": true,
+    "handbook": {
+      "groupBy": [ "apesupportbeams-*" ]
+    }
+  },
+  "entityBehaviorsByType": {
+    "*": [
+      {
+        "name": "SupportBeam",
+        "properties": { "dropWhenBroken": true }
+      }
+    ]
+  },
+  "variantgroups": [
+    {
+      "code": "stone",
+      "states": [ "whitemarble", "greenmarble", "redmarble", "suevite", "kimberlite" ],
+      "loadFromProperties": "block/rock"
+    },
+    {
+      "code": "diameter",
+      "states": [ "1x1", "2x2", "3x3", "4x4", "5x5", "6x6" ]
+    },
+    {
+      "code": "type",
+      "states": [ "plain", "polished", "chamfered1", "voxel1", "spoked1" ]
+    }
+  ],
+  "skipvariants": [
+    "*-obsidian-*",
+    "*-scoria-*",
+    "*-tuff-*",
+    "*-halite-*",
+    "*-1x1-spoked1",
+    "*-2x2-spoked1",
+    "*-3x3-spoked1",
+    "*-4x4-spoked1",
+    "*-5x5-spoked1",
+    "*-1x1-chamfered1",
+    "*-2x2-chamfered1",
+    "*-3x3-chamfered1",
+    "*-4x4-chamfered1",
+    "*-5x5-chamfered1",
+    "*-1x1-voxel1",
+    "*-2x2-voxel1",
+    "*-3x3-voxel1",
+    "*-4x4-voxel1",
+    "*-5x5-voxel1"
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "construction": [ "*" ],
+    "apesupportbeams": [ "*" ]
+  },
+  "shape": { "base": "apebeams:block/wood/supportbeams/{diameter}/{type}/16" },
+  "blockmaterial": "stone",
+  "drawtype": "json",
+  "texturesByType": {
+    "*-6x6-voxel1": { "wood": { "base": "game:block/stone/polishedrock/{stone}-inside" } },
+    "*-6x6-chamfered1": { "wood": { "base": "game:block/stone/polishedrock/{stone}-inside" } },
+    "*-6x6-spoked1": { "wood": { "base": "game:block/stone/polishedrock/{stone}-inside" } },
+    "*-polished": { "wood": { "base": "game:block/stone/polishedrock/{stone}-inside" } },
+    "*-plain": { "wood": { "base": "game:block/stone/rock/{stone}1" } }
+  },
+  "faceCullMode": "NeverCull",
+  "sideOpaque": { "all": false },
+  "emitSideAo": { "all": false },
+  "sideSolid": { "all": false },
+  "lightAbsorption": 0,
+  "rainPermeable": true,
+  "resistance": 3.5,
+  "sounds": {
+    "walk": "game:walk/stone",
+    "byTool": {
+      "Pickaxe": {
+        "hit": "game:block/rock-hit-pickaxe",
+        "break": "game:block/rock-break-pickaxe"
+      }
+    }
+  },
+  "maxStackSize": 32,
+  "materialDensity": 600,
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.13,
+      "y": -0.81,
+      "z": -1.2
+    },
+    "rotation": {
+      "x": -95,
+      "y": 29,
+      "z": 3
+    },
+    "scale": 0.55
+  },
+  "guiTransform": {
+    "rotation": {
+      "x": -22.6,
+      "y": -64,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "scale": 2.24
+  },
+  "drops": []
+}

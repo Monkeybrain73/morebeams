@@ -8,7 +8,7 @@ using Vintagestory.API.Server;
                     Description = "Create beams of various sizes and decorations",
                     Version = "1.1.1")]
 
-namespace arrowbarrels
+namespace apebeams
 {
     public sealed class Core : ModSystem
     {
@@ -18,8 +18,8 @@ namespace arrowbarrels
         {
             this.api = api;
 
-            this.RegisterBlocks(api);
-            this.RegisterEntityclasses(api);
+            // this.RegisterBlocks(api);
+            // this.RegisterEntityclasses(api);
             this.RegisterColBehaviours(api);
 
             base.Start(api);
@@ -38,6 +38,7 @@ namespace arrowbarrels
             base.StartClientSide(api);
         }
 
+        /*
         private void RegisterBlocks(ICoreAPI api)
         {
         }
@@ -45,10 +46,12 @@ namespace arrowbarrels
         private void RegisterEntityclasses(ICoreAPI api)
         {
         }
+        */
+
         private void RegisterColBehaviours(ICoreAPI api)
         {
+            api.RegisterBlockBehaviorClass("Beam.Name", typeof(BlockBehaviorName));
         }
-
 
         public override void Dispose()
         {

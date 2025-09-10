@@ -2,51 +2,190 @@
 	"code": "apesupportbeams",
 	"class": "BlockSupportBeam",
 	"entityClass": "Generic",
+	"behaviorsByType": {
+		"*-spoked1": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:style-spoked1", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		],
+		"*-voxel1": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:style-voxel1", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		],
+		"*-decor5": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:style-decor5", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		],
+		"*-decor4": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:style-decor4", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		],
+		"*-decor3": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:style-decor3", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		],
+		"*-decor2": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:style-decor2", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		],
+		"*-decor1": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:style-decor1", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		],
+		"*-chamfered1": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:style-chamfered", " ", "apebeams:supportbeamlc", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		],
+		"*-plain": [
+			{
+				"name": "Beam.Name",
+				"properties": { "parts": [ "apebeams:supportbeamuc", " (", "apebeams:size-{diameter}", ")", " (", "apebeams:beammaterial-{wood}", ")" ] }
+			}
+		]
+	},
 	"attributes": {
 		"unstableRockStabilization": 3,
 		"partialEnds": true,
-        "handbook": {
-            "groupBy": ["apesupportbeams-*"]
-        }
+		"handbook": {
+			"groupBy": [ "apesupportbeams-*" ]
+		}
 	},
 	"entityBehaviorsByType": {
-		"*": [ { "name": "SupportBeam",  "properties": { "dropWhenBroken": true } } ]
+		"*": [
+			{
+				"name": "SupportBeam",
+				"properties": { "dropWhenBroken": true }
+			}
+		]
 	},
 	"variantgroups": [
-		{ "code": "wood", "states": ["aged", "mossy"], "loadFromProperties": "block/wood" },
-		{ "code": "diameter", "states": ["1x1", "2x2", "3x3", "4x4", "5x5", "6x6"] },
-		{ "code": "type", "states": ["plain", "chamfered1", "decor1", "decor2", "decor3", "decor4", "decor5", "voxel1", "spoked1"] }
+		{
+			"code": "wood",
+			"states": [ "aged", "mossy" ],
+			"loadFromProperties": "block/wood"
+		},
+		{
+			"code": "diameter",
+			"states": [ "1x1", "2x2", "3x3", "4x4", "5x5", "6x6" ]
+		},
+		{
+			"code": "type",
+			"states": [ "plain", "chamfered1", "decor1", "decor2", "decor3", "decor4", "decor5", "voxel1", "spoked1" ]
+		}
 	],
 	"skipvariants": [
-		"*-veryaged-*", "*-veryagedrotten-*", "*-1x1-spoked1", "*-2x2-spoked1", "*-3x3-spoked1", "*-4x4-spoked1", "*-5x5-spoked1",
-		"*-1x1-chamfered1", "*-2x2-chamfered1", "*-3x3-chamfered1", "*-4x4-chamfered1", "*-5x5-chamfered1",
-		"*-1x1-voxel1", "*-2x2-voxel1",	"*-3x3-voxel1",	"*-4x4-voxel1",	"*-5x5-voxel1",
-		"*-1x1-decor1",	"*-2x2-decor1",	"*-3x3-decor1",	"*-4x4-decor1",	"*-6x6-decor1",
-		"*-1x1-decor2",	"*-2x2-decor2",	"*-3x3-decor2",	"*-4x4-decor2",	"*-6x6-decor2",
-		"*-1x1-decor3",	"*-2x2-decor3",	"*-3x3-decor3",	"*-4x4-decor3",	"*-6x6-decor3",
-		"*-1x1-decor4",	"*-2x2-decor4",	"*-3x3-decor4",	"*-4x4-decor4",	"*-6x6-decor4",
-		"*-1x1-decor5",	"*-2x2-decor5",	"*-3x3-decor5",	"*-4x4-decor5",	"*-6x6-decor5",
+		"*-veryaged-*",
+		"*-veryagedrotten-*",
+		"*-1x1-spoked1",
+		"*-2x2-spoked1",
+		"*-3x3-spoked1",
+		"*-4x4-spoked1",
+		"*-5x5-spoked1",
+		"*-1x1-chamfered1",
+		"*-2x2-chamfered1",
+		"*-3x3-chamfered1",
+		"*-4x4-chamfered1",
+		"*-5x5-chamfered1",
+		"*-1x1-voxel1",
+		"*-2x2-voxel1",
+		"*-3x3-voxel1",
+		"*-4x4-voxel1",
+		"*-5x5-voxel1",
+		"*-1x1-decor1",
+		"*-2x2-decor1",
+		"*-3x3-decor1",
+		"*-4x4-decor1",
+		"*-6x6-decor1",
+		"*-1x1-decor2",
+		"*-2x2-decor2",
+		"*-3x3-decor2",
+		"*-4x4-decor2",
+		"*-6x6-decor2",
+		"*-1x1-decor3",
+		"*-2x2-decor3",
+		"*-3x3-decor3",
+		"*-4x4-decor3",
+		"*-6x6-decor3",
+		"*-1x1-decor4",
+		"*-2x2-decor4",
+		"*-3x3-decor4",
+		"*-4x4-decor4",
+		"*-6x6-decor4",
+		"*-1x1-decor5",
+		"*-2x2-decor5",
+		"*-3x3-decor5",
+		"*-4x4-decor5",
+		"*-6x6-decor5",
 		"*-4x4-plain"
 	],
-	"creativeinventory": { "general": ["*"], "construction": ["*"], "apesupportbeams": ["*"] },
+	"creativeinventory": {
+		"general": [ "*" ],
+		"construction": [ "*" ],
+		"apesupportbeams": [ "*" ]
+	},
 	"shape": { "base": "apebeams:block/wood/supportbeams/{diameter}/{type}/16" },
 	"blockmaterial": "Wood",
 	"drawtype": "json",
 	"texturesByType": {
-		"*-mossy-5x5-decor1":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}1" }, "wood": { "base": "game:block/wood/debarked/{wood}" } },
-		"*-mossy-5x5-decor2":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}2" }, "wood": { "base": "game:block/wood/bark/quad/ends/placed/aged" } },
-		"*-mossy-5x5-decor3":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}3" }, "wood": { "base": "game:block/wood/bark/quad/ends/placed/aged" } },
-		"*-mossy-5x5-decor4":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}4" }, "wood": { "base": "game:block/wood/bark/quad/ends/placed/aged" } },
-		"*-mossy-5x5-decor5":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}5" }, "wood": { "base": "game:block/wood/bark/quad/ends/placed/aged" } },
-		"*-5x5-decor1":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}1" }, "wood": { "base": "game:block/wood/debarked/{wood}" } },
-		"*-5x5-decor2":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}2" }, "wood": { "base": "game:block/wood/bark/quad/ends/placed/{wood}" } },
-		"*-5x5-decor3":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}3" }, "wood": { "base": "game:block/wood/bark/quad/ends/placed/{wood}" } },
-		"*-5x5-decor4":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}4" }, "wood": { "base": "game:block/wood/bark/quad/ends/placed/{wood}" } },
-		"*-5x5-decor5":	{ "carved1": { "base": "apebeams:block/wood/beams/{wood}5" }, "wood": { "base": "game:block/wood/bark/quad/ends/placed/{wood}" } },
+		"*-mossy-5x5-decor1": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}1" },
+			"wood": { "base": "game:block/wood/debarked/{wood}" }
+		},
+		"*-mossy-5x5-decor2": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}2" },
+			"wood": { "base": "game:block/wood/bark/quad/ends/placed/aged" }
+		},
+		"*-mossy-5x5-decor3": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}3" },
+			"wood": { "base": "game:block/wood/bark/quad/ends/placed/aged" }
+		},
+		"*-mossy-5x5-decor4": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}4" },
+			"wood": { "base": "game:block/wood/bark/quad/ends/placed/aged" }
+		},
+		"*-mossy-5x5-decor5": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}5" },
+			"wood": { "base": "game:block/wood/bark/quad/ends/placed/aged" }
+		},
+		"*-5x5-decor1": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}1" },
+			"wood": { "base": "game:block/wood/debarked/{wood}" }
+		},
+		"*-5x5-decor2": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}2" },
+			"wood": { "base": "game:block/wood/bark/quad/ends/placed/{wood}" }
+		},
+		"*-5x5-decor3": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}3" },
+			"wood": { "base": "game:block/wood/bark/quad/ends/placed/{wood}" }
+		},
+		"*-5x5-decor4": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}4" },
+			"wood": { "base": "game:block/wood/bark/quad/ends/placed/{wood}" }
+		},
+		"*-5x5-decor5": {
+			"carved1": { "base": "apebeams:block/wood/beams/{wood}5" },
+			"wood": { "base": "game:block/wood/bark/quad/ends/placed/{wood}" }
+		},
 		"*-6x6-voxel1": { "wood": { "base": "game:block/wood/debarked/{wood}" } },
 		"*-6x6-chamfered1": { "wood": { "base": "game:block/wood/debarked/{wood}" } },
 		"*-6x6-spoked1": { "wood": { "base": "game:block/wood/debarked/{wood}" } },
-		"*-plain":	{ "wood": { "base": "game:block/wood/debarked/{wood}" } }
+		"*-plain": { "wood": { "base": "game:block/wood/debarked/{wood}" } }
 	},
 	"faceCullMode": "NeverCull",
 	"sideOpaque": { "all": false },
@@ -63,18 +202,34 @@
 	},
 	"combustibleProps": {
 		"burnTemperature": 600,
-		"burnDuration": 20,
+		"burnDuration": 20
 	},
 	"maxStackSize": 32,
 	"materialDensity": 600,
 	"tpHandTransform": {
-		"translation": { "x": -1.13, "y": -0.81, "z": -1.2 },
-		"rotation": { "x": -95, "y": 29, "z": 3 },
+		"translation": {
+			"x": -1.13,
+			"y": -0.81,
+			"z": -1.2
+		},
+		"rotation": {
+			"x": -95,
+			"y": 29,
+			"z": 3
+		},
 		"scale": 0.55
 	},
 	"guiTransform": {
-		"rotation": { "x": -22.6, "y": -64, "z": 0 },
-		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"rotation": {
+			"x": -22.6,
+			"y": -64,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
 		"scale": 2.24
 	},
 	"drops": []
